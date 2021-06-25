@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  line-height: 25px;
+  font-family: 'Barlow', sans-serif;
+} 
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Barlow', sans-serif;
+}
+h1,
+{
+  font-family: "Lato", sans-serif;
+}
+
+.header-section{
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.header-section h1 {
+	font-weight: 600;
+	font-size: 42px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.header-section p {
+	text-align: center;
+}
+
+.hero-section{
+	margin-top: -55px;
+}
+
+.dropcap-section .inner-section p{
+	width: 55%;
+	margin:0 auto;
+	padding-top: 60px;
+	text-align: left;
+}
+
+.blog-sell-section{
+	width: 100%;
+	padding-top: 60px;
+}
+
+.blog-sell-section .inner-section h3{
+	width: 55%;
+	text-align: left;
+	margin:0 auto;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.blog-sell-section .inner-section .para-section{
+	width: 58%;
+	background-color: #F8F8F8;
+	margin:0 auto;
+	padding: 25px 20px;
+
+}
+
+.way-section{
+	width: 100%;
+	padding-top: 60px;
+}
+
+.way-section .inner-section h3{
+	width: 55%;
+	text-align: left;
+	margin:0 auto;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.way-section .inner-section p{
+	width: 58%;
+	margin:0 auto;
+	text-align: left;
+	margin-bottom: 60px;
+}
+
+.way-section .inner-section .hero2-img p{
+	font-size: 13px;
+	color: #A1A1A1;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.way-section .inner-section .flex-img-part{
+	width: 57%;
+	margin: 0 auto;
+}
+
+.price-section{
+	width: 55%
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.price-section{
+	width: 100%;
+	padding-top: 60px;
+}
+
+
+

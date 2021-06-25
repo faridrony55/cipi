@@ -1,0 +1,341 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	font-family: 'Barlow', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+
+}
+
+h2, h3, h4, h5, h6{
+	font-family: 'Barlow', sans-serif;
+}
+h1{
+	font-family: "Lato", sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*********************************
+**	 Global css code goes here	**
+**********************************/
+.container {
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.row{
+	width: 100%;
+	float: left;
+}
+
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+
+.col-md-4{
+	width: 33.33%;
+	float: left;
+}
+
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+
+/**********************************
+** header-section code goes here **
+***********************************/
+.header-section{
+	width: 100%;
+	float: left;
+	/* background: #f6f9f9; */
+	padding: 105px 0 0;
+
+}
+
+.header-section .header-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.header-section .header-inner p{
+    margin-bottom: 32px;
+} 
+
+.header-section .header-inner h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+/**********************************
+** banner-section code goes here **
+***********************************/
+.banner{
+	width: 100%;
+	float: left;
+}
+
+.banner .banner-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+/*************************************
+** main-body-section code goes here **
+**************************************/
+.main-body-section{
+	width: 100%;
+	float: left;
+	padding-top: 60px;
+
+}
+
+.main-body-section .main-body-inner{
+	width: 100%;
+	float: left;
+}
+
+/*Drop cap paragraph code goes here*/
+.main-body-section .main-body-inner .dropcap{
+	width: 56%;
+	margin:0 auto;
+	text-align: left;
+}
+
+.main-body-section .main-body-inner .dropcap p:first-child:first-letter{
+	font-size: 80px;
+	line-height: 70px;
+	font-weight: 700;
+	padding-right: 8px;
+	float: left;
+}
+
+/*blog-sell heading & paragraph code goes here*/
+.main-body-section .main-body-inner .blog-sell{
+	width: 56%;
+	margin:0 auto;
+	text-align: left;
+}
+
+.main-body-section .main-body-inner .blog-sell h3{
+	font-size: 24px;
+	margin: 60px 0 30px;
+}
+
+.main-body-section .main-body-inner .blog-sell .para-section{
+	background-color: #F8F8F8;
+}
+
+.main-body-section .main-body-inner .blog-sell .para-section .para-inner{
+	margin: 0px 30px;
+	padding: 30px 0;
+}
+.main-body-section .main-body-inner .blog-sell .para-section .para-inner .p-head{
+	font-weight: 700;
+}
+
+/*way-convert heading & paragraph code goes here*/
+.main-body-section .main-body-inner .way-convert{
+	width: 56%;
+	margin:0 auto;
+	text-align: left;
+}
+
+.main-body-section .main-body-inner .way-convert h3{
+	font-size: 24px;
+	margin: 60px 0 30px;
+}
+
+/*image title css goes here*/
+.main-body-section .main-body-inner .img-title{
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-weight: 400;
+    line-height: 1.6em;
+    text-align: center;
+    color: #888;
+}
+
+/*glary-section css goes here*/
+.main-body-section .main-body-inner .glary-section{
+	position: relative;
+	width: 56%;
+	margin:0 auto;
+	text-align: left;
+}
+
+.main-body-section .main-body-inner .glary-section .myvideo{
+	margin-top: 12px;
+	cursor: pointer;
+}
+
+/*video player css code goes here*/
+.main-body-section .main-body-inner .glary-section .video-player{
+	position: absolute;
+	left:50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+.main-body-section .main-body-inner .glary-section .video-player .close-btn{
+	position: absolute;
+    top: -40px;
+    right: -5px;
+    width: 46px;
+    cursor: pointer;
+}
+video:focus{
+	outline: none;
+}
+
+/*price-section css goes here*/
+.main-body-section .main-body-inner .price-section{
+	width: 56%;
+	margin:0 auto;
+	text-align: left;
+}
+
+.main-body-section .main-body-inner .price-section p{
+	text-align: justify;
+	margin-bottom: 50px;
+}
+
+.main-body-section .main-body-inner .price-section .price{
+	margin-top: 90px;
+	margin-left: 20px;
+}
+
+.main-body-section .main-body-inner .price-section .price h3{
+	font-size: 24px;
+}
+
+.main-body-section .main-body-inner .price-section .price input{
+	width: 60px;
+    height: 40px;
+    outline: 0;
+    text-align: center;
+    padding: 0;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.main-body-section .main-body-inner .price-section .price a{
+	background-color: #4c6347;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 15px;
+    border-radius: 4px;
+    padding: 12px 20px;
+
+}
+
+.main-body-section .main-body-inner .price-section .price a:hover{
+	background-color: #394D35;  
+}
+
+/*three-img-section css goes here*/
+.main-body-section .main-body-inner .three-img-section{
+	width: 58%;
+	margin:0 auto;
+	text-align: left;
+}
+
+.main-body-section .main-body-inner .three-img-section .product-price h3{
+	font-size: 15px;
+	text-align: center;
+	margin-left: -16px;
+}
+
+.main-body-section .main-body-inner .three-img-section .product-price a{
+	display: block;
+	background-color: #4c6347;
+    color: #fff;
+    width: 92%;
+    font-size: 15px;
+    border-radius: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.main-body-section .main-body-inner .three-img-section .product-price a:hover{
+	background-color: ##394D35;
+}
+
+/*********************************
+**	 post css code goes here	**
+**********************************/
+.post-section{
+	width: 100%;
+	float: left;
+	background-color: #F8F8F8;
+	padding-top: 80px;
+	padding-bottom: 100px;
+	margin-top: 105px;
+}
+
+.post-section h3{
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+.post-section .post-inner h4{
+	font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.post-section .post-inner p{
+	font-size: 12px;
+ 	color: #888;
+ 	margin-top: 15px;
+}
+
+.post-section .linking-section{
+	position: fixed;
+	right: 18px;
+	bottom: 15px;
+}
+
+/*fixed linking button css goes here*/
+.post-section .linking-section .template{
+	background: #5f67ff;
+    font-size: 14px;
+    padding: 0 20px;
+    display: inline-flex;
+    line-height: 40px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.post-section .linking-section .store{
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	text-decoration: underline;
+	margin-left: 13px;
+}
+
+
+
+
+
